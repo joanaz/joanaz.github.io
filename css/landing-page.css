@@ -23,6 +23,8 @@ h6 {
 
 .topnav {
     font-size: 14px; 
+    font-family: 'chalkdusterregular';
+    src: asset-url('../fonts/Chalkduster.ttf');
 }
 
 .lead {
@@ -34,15 +36,13 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    color: #7ddc1f;
+    background: url(../img/hands.png) no-repeat center center;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
 }
 
 .intro-message > h1 {
